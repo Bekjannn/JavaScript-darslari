@@ -36,3 +36,11 @@
 
 // console.log(`hello ${name}`);  // hello ilya
 
+
+
+
+
+let num ;
+num = 1;
+num = 0;
+console.log(num);
