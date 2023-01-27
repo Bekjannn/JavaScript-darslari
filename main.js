@@ -4,7 +4,7 @@
 
 // 2.  String:   "hello world",  "wbacademy@gmail.com", ....;
 
-// 3.  Bigint:   123456789n,  65439876e, ....;
+// 3.  Bigint:   123456789n,  Bigint(12345678);
 
 // 4.  Boolean:  true / false ;
 
@@ -14,15 +14,25 @@
 
 // 7.  Symbols:  objectlar bilan birga ishlatilinadi ;
 
-// 8.  Objects:  
+//* 8.  Objects:  bu bir necha hossalarni o'z ichiga olgan o'zgaruvchi
+
+// masalan:  
+
+    // let person = {
+    //     name: 'Sodiq',
+    //     age: 15
+    // }
+    // console.log(person);
+
+
 
 // 2-String consoledan nima chiqadi ?
 
-let name = "ilya";
+// let name = "ilya";
 
-console.log(`hello ${1}`);   // hello 1
+// console.log(`hello ${1}`);   // hello 1
 
-console.log(`hello ${"name"}`);  // hello name
+// console.log(`hello ${"name"}`);  // hello name
 
-console.log(`hello ${name}`);  // hello ilya
+// console.log(`hello ${name}`);  // hello ilya
 
